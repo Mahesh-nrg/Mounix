@@ -1,0 +1,19 @@
+[project]
+name = "mobile-pt-backend"
+version = "0.1.0"
+description = "Add your description here"
+requires-python = ">=3.13"
+dependencies = [
+    "apkfile>=1.4.2",
+    "bcrypt>=5.0.0",
+    "fastapi>=0.141.1",
+    "frida-tools>=14.10.4",
+    "httpx>=0.28.1",
+    "itsdangerous>=2.2.0",
+    "passlib>=1.7.4",
+    "psycopg[binary]>=3.3.6",
+    "python-multipart>=0.0.32",
+    "sqlmodel>=0.0.47",
+    "uvicorn[standard]>=0.54.0",
+    "websockets>=13.1",
+]

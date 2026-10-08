@@ -1,0 +1,33 @@
+# Secrets / local config
+.env
+.env.bak.*
+burp-mcp-client.json
+
+# Genymotion installer the user drops in (large, proprietary)
+genymotion_install/*.run
+
+# Portal runtime data (uploads, certs, keystores, frida-server binary, burp sessions)
+portal/data/
+
+# Fetched at install time (AGPL-3.0, not vendored - see portal/setup.sh)
+portal/scripts/frida/
+
+# Python
+portal/backend/.venv/
+**/__pycache__/
+*.pyc
+
+# Node / frontend build output
+portal/frontend/node_modules/
+portal/frontend/dist/
+
+# mobile_pt.sh runtime state
+logs/
+mobsf_data/
+mobsf_adb_home/
+.emulator.pid
+test_apk/
+
+# Editors / OS
+.DS_Store
+*.swp
