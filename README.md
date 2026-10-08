@@ -1,9 +1,11 @@
-# Mobile PT Automation
+# Mounix: Mobile PT Automation
 
-Upload an APK, XAPK, APKM, or APKS to a web portal. The portal installs it on a rooted Android
-device or emulator, trusts Burp Suite's CA certificate on the device, points the device proxy at
-Burp, tries a Frida SSL-pinning bypass, and falls back to an apktool static patch if Frida fails.
-You end up in Burp with working interception instead of doing each step by hand.
+Mounix is a growing autonomous pentesting platform. This first module automates Android mobile app
+pentesting end to end: upload an APK, XAPK, APKM, or APKS to a web portal, and it installs the app
+on a rooted Android device or emulator, trusts Burp Suite's CA certificate on the device, points
+the device proxy at Burp, tries a Frida SSL-pinning bypass, and falls back to an apktool static
+patch if Frida fails. You end up in Burp with working interception instead of doing each step by
+hand.
 
 A parallel MobSF static-analysis report is generated for each app.
 
