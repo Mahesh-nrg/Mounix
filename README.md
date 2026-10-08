@@ -133,20 +133,6 @@ bundled or silently downloaded). Do this once by hand, when the installer pauses
 Burp's CA certificate does not need to be installed by hand. The portal fetches it and pushes it to
 the device's system store during the `CA_TRUST` step.
 
-## GitHub login with `gh`
-
-Cloning the public repository needs no login. You need the GitHub CLI to push branches, open pull
-requests, or use `gh` commands. `install_mobile_pt.sh` offers to do this step for you
-(`gh auth login --web`); to do it yourself instead:
-
-```bash
-# Install gh (Debian/Ubuntu/Kali): sudo apt install gh
-gh auth login --web
-```
-
-Choose **GitHub.com**, then **HTTPS**, then follow the browser prompt with the one-time code the
-terminal shows. Check the result with `gh auth status`.
-
 ## Network interface choice
 
 Burp's proxy listener, the MCP server, and the portal dashboard each bind to one network interface.
