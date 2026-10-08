@@ -59,8 +59,8 @@ Pipeline per job:
 ## Quick install
 
 ```bash
-git clone https://github.com/<OWNER>/mobile-pt-automation.git
-cd mobile-pt-automation
+git clone https://github.com/Mahesh-nrg/Mounix.git
+cd Mounix
 sudo ./install_mobile_pt.sh
 ```
 
